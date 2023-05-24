@@ -1,0 +1,41 @@
+1. Read the application details again. What concerns might you have right off the bat? 
+Firstly, that the app will show the locations and cargo of all the trucks in the US, that is a big security hazard if the information falls into the wrong hands. Management not seeing anything wrong with the app and are anxious to have it go live, so potentially management will be putting a rush on you to complete the security aspect of the app. So there could be something that slips by because you were in a hurry.
+
+2. What is the difference between test cases and test cycles (aka “test runs”)? 
+A test case will include the test steps, conditions, and expected result. A test cycle, or run, will keep track of the test itself.
+
+3. What things should be considered when writing test cases?
+The objective of the test case, a reference to the bug the test case is addressing, the setup and steps in order to get the bug to show itself, and the expected result.
+
+4. What kind of documentation would you expect to come out of this project (e.g. training docs, change requests)? 
+I would expect to see documentation on the test summary, the expected outcome, and the actual outcome.
+
+5. If an online/cloud-based project management solution is being used, what concerns might you have regarding that? 
+I would be perfectly fine with a cloud based project management solution. It would allow us to be flexible with our needs, if we had a lot of processing that needed to be done, then we could quickly and inexpensively ramp up our computing power to serve our purposes, then ramp them back down after we were done. Also using a cloud based system we would be able to pop into different parts of the world and use the manager without having to purchase another copy of it to install on several different computers.
+
+6. You find out that a couple of developers have full access in Dev, QA and Prod. Is this a security problem? Why or why not? Is it a compliance problem? Why or why not? 
+Yes, this is a security problem. With one person having access to all 3 areas of development, if they were disgruntled, they could easily sabotage the entire project instead of one small section of it.  Yes, this is a compliance problem, according to CIS Control v8 3.3 Configure data access control lists: Configure data access control lists based on a user’s need to know. Apply data 
+access control lists, also known as access permissions, to local and remote file 
+systems, databases, and applications. So if one user has access to only all three areas, then they are not in compliance with the CIS Controls.
+
+7. What is regression testing and why is it important? 
+Regression testing is a software testing technique that re-runs functional and non-functional tests to ensure that a software application works as intended after any revisions to the code.
+
+8. What are the pros and cons of regression testing? 
+The Pros are: maintaining software stability, improving confidence in updates, and facilitating efficient development.
+The Cons are: time consuming and resource intensive, dependent on test cases, can be repetitive and tedious.
+
+9. What are some “political” concerns that could arise if issues are found that could delay the project? 
+Well, Management could start to look down on you and blame you for any delays based on your findings. They could start treating you differently for not falling inline and getting done fast. They could deny you raises, or even fire you because you delayed their big new project.
+
+10.What are the two most common project management methodologies? What are the main differences between them? 
+Waterfall and Agile.
+Waterfall, also known as the linear sequence lifecycle model, is a series of steps completed in sequential order within the SDLC; they are typically tracked with a Gantt chart.
+Agile breaks the project down into several separate sections, which are known as sprints, and the project gets multiple different aspects completed all at the same time.
+
+11.In the middle of QA testing, management requested that another feature be included in the application. What is this called, and how should the project team evaluate it? 
+New functionality. The project team should evaluate what the new feature is supposed to do, then meet with the stakeholders to discuss it, then plan it out with the project team, then perform the sprint.
+
+12.When the application went live, some bugs were found. At what stage of the process should the bugs have been caught and fixed? Why?
+The bugs should have been noticed in the testing phase of all 3 environments. If all 3 environment teams would have spent more time testing, they potentially would have noticed the bugs and been able to fix them before launching the application.
+
